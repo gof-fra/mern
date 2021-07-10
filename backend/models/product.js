@@ -62,6 +62,10 @@ const productSchema = new mongoose.Schema({
         maxLength: [5, 'Ne peut exceder 5 caracteurs'],
         default: 0
     },
+    vendeur:{
+        type: String,
+        required: true
+    },
     nbrVue: {
         type: Number,
         defaults: 0
