@@ -51,7 +51,12 @@ const productSchema = new mongoose.Schema({
                 'Habits/Chaussures',
                 'Beauté',
                 'Sport',
-                'Maison'
+                'Maison',
+                'USB',
+                'Telephones',
+                'Montres',
+                'Imprimantes',
+                'Bracelets'
             ],
             message: 'Selectionnez correctement le categorie'
         }
